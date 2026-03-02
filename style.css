@@ -1,0 +1,39 @@
+ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.right-links {
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+    color: #F9FAF8;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero-secondary-text, .right-links {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.footer, .header {
+    text-align: center;
+    background: #96DED1;
+}
+.introduction, .navbar {
+    background: #96DED1;
+}
+body {
+    margin: 0px;
+}
+button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F9FAF8;
+}
