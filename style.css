@@ -43,7 +43,14 @@ button {
     justify-content: center;
 }
 .introduction-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     flex: 50%;
     text-align: center;
+    padding: 30px;
+}
+.introduction-image {
     padding: 30px;
 }
