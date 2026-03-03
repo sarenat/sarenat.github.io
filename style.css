@@ -13,7 +13,6 @@ a {
     gap: 20px;
     color: #F9FAF8;
 }
-
 .hero-main-text {
     font-size: 48px;
     font-weight: 900;
@@ -28,6 +27,7 @@ a {
 }
 .introduction, .navbar {
     background: #96DED1;
+    padding: 15px;
 }
 body {
     margin: 0px;
@@ -36,4 +36,14 @@ button {
     padding: 10px;
     border-radius: 10px;
     background-color: #F9FAF8;
+}
+.introduction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.introduction-text {
+    flex: 50%;
+    text-align: center;
+    padding: 30px;
 }
