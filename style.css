@@ -58,3 +58,14 @@ button {
    text-align: center;
    padding: 20px;
 }
+.project-display {
+    text-align: center;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+.project-1, .project-2 {
+    display: flex;
+}
+
