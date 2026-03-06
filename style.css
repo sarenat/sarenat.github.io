@@ -61,6 +61,7 @@ button {
 
 .project-display {
     text-align: center;
+    padding: 25px 50px;
 }
 .projects {
     display: flex;
@@ -72,5 +73,10 @@ button {
 }
 .project-photo, .project-description {
     padding: 20px;
+}
+.project-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
 }
 
