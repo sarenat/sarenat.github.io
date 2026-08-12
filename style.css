@@ -39,6 +39,10 @@ a {
     gap: 20px;
     color: #F9FAF8;
 } */
+
+h2 {
+    padding-bottom: 25px;
+}
 .hero-main-text {
     font-size: 45px;
     font-weight: 900;
@@ -90,14 +94,12 @@ a {
 }
 .projects {
     display: flex;
-    flex-wrap: wrap;
 }
 .project {
     display: flex;
-    flex: 50%;
-}
-.project-photo, .project-description {
-    padding: 20px;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
 }
 .project-photo {
     width: 150px;
