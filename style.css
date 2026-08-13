@@ -106,8 +106,15 @@ h2 {
 }
 .projects {
     display: flex;
+    gap: 10px;
 }
 .project {
+    background: rgb(0 0 0 / 40%);
+    border-radius: 20%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+
     display: flex;
     flex-wrap: wrap;
     flex: 1;
