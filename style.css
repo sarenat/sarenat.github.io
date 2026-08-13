@@ -25,10 +25,8 @@ body {
     line-height: 1.5;
     background-image: url("./images/background.jpg");
     background-size: 100% auto;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-
-    position: fixed;
 }
 img, picture, video, canvas, svg {
     display: block;
