@@ -61,10 +61,10 @@ h1, h2, h3, h4, h5 {
     height: 100vh;
     height: 100dvh;
 } */
-/* .content {
+.content {
     position: relative;
     z-index: 1;
-} */
+}
 
 /* ---------- Header/Footer ---------- */
 .footer, .header {
