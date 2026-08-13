@@ -30,10 +30,6 @@ html, body {
 body {
     line-height: 1.5;
     background-image: url("./images/background.jpg");
-    /* background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; */
-
     background-size: 100% auto;
     background-repeat: repeat-y;
 }
@@ -110,6 +106,7 @@ h1, h2, h3, h4, h5 {
 .project-display {
     text-align: center;
     padding: 25px 50px;
+    color: white;
 }
 .projects {
     display: flex;
@@ -121,7 +118,6 @@ h1, h2, h3, h4, h5 {
     background: rgb(0 0 0 / 40%);
     border-radius: 20%;
     padding: 15px;
-    color: white;
 
     display: flex;
     flex-wrap: wrap;
