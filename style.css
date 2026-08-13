@@ -101,6 +101,8 @@ h2 {
     padding: 30px;
 }
 .introduction-image {
+    min-width: 0;
+    display: flex;
     padding: 30px;
 }
 .footer {
