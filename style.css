@@ -27,6 +27,11 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+/* @media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+    }
+} */
 img, picture, video, canvas, svg {
     display: block;
     max-width: 100%;
@@ -104,6 +109,11 @@ h2 {
     min-width: 0;
     display: flex;
     padding: 30px;
+}
+.introduction-image img {
+    border-radius: 30%;
+    max-width: 500px;
+    min-width: 0;
 }
 .footer {
    text-align: center;
