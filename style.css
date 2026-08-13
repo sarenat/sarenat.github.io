@@ -15,7 +15,7 @@
     margin: 0;
 }
 html {
-    background: #8C68C4;
+    background: rgb(75, 86, 115);
 }
 html, body {
     margin: 0;
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 /* ---------- Header/Footer ---------- */
 .footer, .header {
     text-align: center;
-    background: black; 
+    background: rgb(75, 86, 115); 
     color: white;
 }
 .footer {
