@@ -27,6 +27,8 @@ body {
     background-size: 100% auto;
     background-repeat: repeat-y;
     background-attachment: fixed;
+
+    position: fixed;
 }
 img, picture, video, canvas, svg {
     display: block;
