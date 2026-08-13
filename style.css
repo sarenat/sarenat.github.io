@@ -12,6 +12,9 @@
 *:not(dialog) {
     margin: 0;
 }
+html {
+    background: #8C68C4;
+}
 html, body {
     margin: 0;
     min-height: 100%;
