@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Silkscreen';
+    src: url('./fonts/Silkscreen.woff2') format('woff2'),
+         url('./fonts/Silkscreen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -6,6 +14,10 @@
 }
 body {
     line-height: 1.5;
+    background: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 img, picture, video, canvas, svg {
     display: block;
@@ -41,10 +53,12 @@ a {
 } */
 
 h2 {
+    font-family: 'Silkscreen';
     padding-bottom: 25px;
 }
 .hero-main-text {
-    font-size: 45px;
+    font-family: 'Silkscreen';
+    font-size: 40px;
     font-weight: 900;
 }
 .hero-secondary-text, .right-links {
@@ -53,20 +67,18 @@ h2 {
 }
 .footer, .header {
     text-align: center;
-    background: #96DED1;
+    background: black; 
+    color: white;
 }
-
-/* button {
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #F9FAF8;
-} */
-
-.introduction, .navbar {
-    background: #96DED1;
+.navbar {
+    background: black;
     padding: 15px;
 }
 .introduction {
+    padding: 15px;
+    background-color: rgb(0 0 0 / 40%);
+    color: white;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
