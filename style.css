@@ -73,9 +73,9 @@ h1, h2, h3, h4, h5 {
     height: 100%;
     z-index: -10;
     background-image: url("./images/background.jpg") no-repeat center center;
-    --webkit-background-size: cover;
-    --moz-background-size: cover;
-    --o-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
  }
 
