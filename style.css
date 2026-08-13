@@ -136,9 +136,4 @@ h2 {
     border-radius: 20%;
 }
 
-@media (min-width: 768px) {
-    p {
-        font-size: 40px;
-    }
-}
 
