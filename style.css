@@ -133,8 +133,12 @@ h2 {
     align-items: center;
 }
 .project-photo {
-    width: 150px;
-    height: 150px;
     border-radius: 20%;
+}
+
+@media (min-width: 768px) {
+    p {
+        font-size: 18px;
+    }
 }
 
