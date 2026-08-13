@@ -16,12 +16,6 @@
 }
 html {
     background: #8C68C4;
-
-    /* background: url("./images/background.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
 }
 html, body {
     margin: 0;
@@ -32,6 +26,7 @@ body {
     background-image: url("./images/background.jpg");
     background-size: 100% auto;
     background-repeat: repeat-y;
+    background-attachment: fixed;
 }
 img, picture, video, canvas, svg {
     display: block;
