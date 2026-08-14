@@ -63,6 +63,9 @@ h1, h2, h3, h4, h5 {
     position: relative;
     z-index: 1;
 }
+h2 {
+    text-shadow: 0 0 8px #000000;
+}
 
 /* ---------- Header/Footer ---------- */
 .footer, .header {
