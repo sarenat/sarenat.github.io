@@ -40,7 +40,7 @@ p {
 }
 h1, h2, h3, h4, h5 {
     text-wrap: balance;
-    font-family: 'Silkscreen';
+    font-family: 'Silkscreen', system-ui;
     padding-bottom: 25px;
 }
 
@@ -97,7 +97,7 @@ h2 {
     padding: 30px;
 }
 .introduction-main-text {
-    font-family: 'Silkscreen';
+    font-family: 'Silkscreen', system-ui;
     font-size: 40px;
     font-weight: 900;
 }
